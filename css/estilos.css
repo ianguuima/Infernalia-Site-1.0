@@ -1,0 +1,364 @@
+@charset "utf-8";
+
+/* Largura da barra de rolagem */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Fundo da barra de rolagem */
+::-webkit-scrollbar-track-piece {
+    background-color: #222222;
+    border-left: 1px solid #222222
+}
+
+/* Cor do indicador de rolagem */
+::-webkit-scrollbar-thumb:vertical,
+::-webkit-scrollbar-thumb:horizontal {
+    background-color: #000000}
+
+/* Cor do indicador de rolagem - ao passar o mouse */
+::-webkit-scrollbar-thumb:vertical:hover,
+::-webkit-scrollbar-thumb:horizontal:hover {
+    background-color: #552A19;}
+
+
+body{
+	overflow-x: hidden;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	background-color: #151515;
+}
+
+.header{
+	background-image: url('../imgs/background.jpg');
+	background-size: cover;
+	border-bottom: solid 5px #2d0f05;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover{
+	text-decoration: none;
+	color: inherit;
+}
+a:visited { 
+    color: inherit;
+	text-decoration: none;
+}
+
+/* MENU */
+
+
+nav{
+	padding-right: 40px;
+	text-align: center;
+	font-size: 22px;
+	font-family: 'Raleway', sans-serif;
+	width: 100%;
+	height: 60px;
+	color: white;
+	border-color: #121212 !important;
+}
+nav li{
+	margin-left: 15px;
+	display: inline-block;
+	-webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+nav li:hover{
+	color: #fa7b00;
+}
+nav ul{
+	margin-top: 10px;
+}
+li#ativo{
+	color: #EC2428;
+}
+
+/* BORDERS */
+
+div#delay2{
+	animation-delay: 0.2s;
+}
+
+div#myCarousel{
+	border-bottom: solid 10px #191919;
+}
+
+/* INICIO DOS BOTÕES */
+
+button#slide{
+	top: -10px;
+	font-family: 'Open Sans', sans-serif;
+	position:relative;
+	margin-top: 10px;
+	margin-left: 5px;
+	font-size: 16px;
+	text-align: center;
+	width: 200px;
+	height: 50px;
+	text-transform: uppercase;
+	font-style: oblique;
+	background-color:#1b1b1b;
+	-webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+	border: none !important;
+}
+button#slide:hover{
+	background-color:#FF7307;
+    
+}
+
+
+/* INICIO DA SEÇÃO EQUIPE */
+
+.equipe{
+	display: block;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	width: 100%;
+	height: 300px;
+	border-top: solid 5px #1D1D1D;
+	background-color: #232323;
+}
+.equipe img{
+	margin-top: 30px;
+}
+.equipe p{
+	margin-top: 5px;
+}
+h4#form:hover{
+	color: #ff7c1e !important;
+}
+
+/* INICIO DO FOOTER */
+
+footer{
+	border-top: solid 5px #191919;
+	margin-top: 30px;
+	position: absolute;
+	background-color: #131313; 
+	width: 100%;
+	height: 100px;
+}
+footer h2{
+	margin-top: 20px;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
+footer h3{
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
+.modal-body{
+	color: whitesmoke!important;
+}
+.modal-body h4{
+	text-align: center;
+}
+strong{
+	color: white !important;
+}
+img#ativado{
+	margin-left: 100px;
+	margin-bottom: 20px;
+}
+h5{
+	font-size: 18px;
+	text-align: center;
+}
+img#ativar{
+	display:block !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+.termos{
+	background-color: #1D1D1D;
+	border-bottom: 5px solid #161616;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: 60px;
+	text-align: center;
+	color: white;
+	margin-bottom: 50px;
+}
+.row{
+	margin-right: -50px;
+}
+
+
+.thumbnail {
+	border-left: none !important;
+	border-top: none !important;
+	border-bottom: none !important;
+	border-right: 6px solid #171717;
+	margin-top: 10px;
+	background-color: #1d1d1d !important;
+}
+.thumbnail#teste{
+	display: block;
+	text-align: center;
+	padding-top: 0px;
+	background-color: transparent !important;
+	border: transparent !important;
+	
+}
+.clickable
+{
+    cursor: pointer;
+}
+
+.caption h4{
+	text-align: center;
+	color: white !important;
+}
+.caption p{
+	color: white !important; 
+}
+
+
+/* BUTTONS */
+
+button#infobutton{
+	font-family: 'Open Sans', sans-serif;
+	color:#FFFFFF;
+	position:relative;
+	margin-top: 10px;
+	margin-left: 5px;
+	border-radius: 6px;
+	font-size: 14px;
+	text-align: center;
+	width :70px;
+	height: 40px;
+	border: none !important;
+	background-color:#7a3c24;
+	transition:all 0.3s ease;
+}
+
+button#buybutton{
+	font-family: 'Open Sans', sans-serif;
+	color:#FFFFFF;
+	position:relative;
+	margin-top: 10px;
+	margin-left: 5px;
+	border-radius: 6px;
+	font-size: 14px;
+	text-align: center;
+	width :80px;
+	height: 40px;
+	border: none !important;
+	background-color:#f76300;
+	transition:all 0.3s ease;
+}
+
+button#infobutton:hover{
+	background-color:#68331E;
+}
+
+button#buybutton:hover{
+	background-color:#D65500;
+}
+
+.panel-heading clickable{
+	background-color: #171717 !important;
+}
+.col-md-6{
+	margin-right: 0px;
+}
+.panel-info{
+	border: none !important;
+}
+.panel-info:hover{
+	border: none !important;
+}
+div#adjust{
+	margin-right: 10px;
+}
+.buttons{
+    display: inline-block;
+	margin-left: 130px;
+	margin-right: 0px;
+	white-space: nowrap;
+
+}
+.buttons a{
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+
+.sobre h3{
+	padding-top: 20px;
+	color: orange;
+	padding-right: 20px;
+		position: relative;
+	left: 10px;
+	font-family: 'Open Sans', sans-serif;
+}
+.sobre p{
+	padding-top: 30px;
+	margin-left: 500px;
+	position: relative;
+	left: 10px;
+	color: white;
+		font-family: 'Open Sans', sans-serif;
+		padding-right: 20px;
+}
+.sobre img{
+	margin-left: 50px;
+}
+.sobre{
+	margin-bottom: 80px;
+}
+.media h4{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	color: orange;
+	margin-bottom: 15px;
+}
+.media p{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: white;
+	margin-bottom: 15px;
+}
+.media{
+	background-color: #1D1D1D;
+	border-bottom: solid 5px #171717;
+}
+p#red{
+	color: firebrick;
+}
+h3#regras{
+	text-align: center;	
+	font-family: 'Open Sans', sans-serif;
+	color: #F71619;
+}
+p#regras{
+	text-align: center;	
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+}
+.carousel-caption p{
+	background-color: rgba(18,18,18,0.30);
+}
+.carousel-caption h2{
+	color: orangered;
+	font-family: 'Open Sans', sans-serif;
+	font-style: oblique;
+	font-size: 32px;
+	text-shadow: 2px 2px 1px #121212;
+}
